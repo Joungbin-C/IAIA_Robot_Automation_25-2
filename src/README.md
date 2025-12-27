@@ -81,6 +81,7 @@ catkin_ws
       ```
 
   - Indy10 Robot process 용 실행은 다음과 같다.
+    아두이노와 카메라를 연결할 때는 터미널에서 다음 노드들을 순서대로 실행하고, 코드(camera.py, Mid_project.py)에서 각 장치의 인덱스를 확인한다.
     - ```bash
       roscore
 
