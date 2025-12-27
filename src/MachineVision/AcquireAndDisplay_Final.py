@@ -16,7 +16,7 @@ from PyQt5.QtGui import QImage, QPixmap
 from PyQt5.QtCore import (QThread, pyqtSignal, pyqtSlot, Qt,
                           QMutex, QWaitCondition)
 
-HOST = '192.168.0.18' # 통신을 위해 serial 번호 바꾸기
+HOST = '127.0.0.1' # localhost로 하여 같은 컴퓨터 안에서 통신신
 PORT = 9999 # 받는 쪽과 포트 번호 맞추기
 
 # 변수 Threshold 값
@@ -30,7 +30,8 @@ CENTER_OFFSET_TOLERANCE = 70 # 원의 가운데가 이미지 상에 가운데 �
 MIN_PIXEL_AREA_THRESHOLD = 95000    #원 안에 픽셀 threshold값
 CELL_2_TIMEOUT_FRAMES = 100  # 2번 셀을 기다릴 최대 프레임 수
 
-# 통신을 원하면 주석처리 되어있는 통신 코드 활성화
+# 통신을 원하면 주석처리 되어있는 통신 코드 활성화# 통신 코드드
+
 def create_connection(host=HOST, port=PORT, timeout=10):
     try:
         s = socket.create_connection((host, port), timeout=timeout)
@@ -787,3 +788,4 @@ if __name__ == '__main__':
     ex.show()
 
     sys.exit(app.exec_())
+
