@@ -81,8 +81,8 @@ This is setup for machine vision to check the state of cells. There are two mach
 This is overall setup for battery wind manipulation. 
 
 ### 5. Individual Report
-**[UR53]**()
+**[UR53]()**
 
-**[Indy10]**()
+**[Indy10]()**
 
-**[Machine Vision]**(https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/Report/Report_MachinVision.pdf)
+**[Machine Vision](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/Report/Report_MachinVision.pdf)**
