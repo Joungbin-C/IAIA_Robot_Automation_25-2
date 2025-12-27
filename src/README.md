@@ -24,9 +24,27 @@ catkin_ws
   |----|----|----|- ...
   |----|----|- src
   |----|----|----|- dual_network.py
-  |----|- indy10_python
+  |----|- indy_driver
   |----|----|- msg
+  |----|----|----|- comp_wind_info.msg
+  |----|----|----|- decomp_wind_info.msg
+  |----|----|----|- bracket_info.msg
+  |----|----|----|- comp_pose_info.msg
+  |----|----|----|- decomp_pose_info.msg
+  |----|----|----|- cell_state_info.msg
+  |----|----|----|- process_info.msg
   |----|----|- src
+  |----|----|----|- camera.py
+  |----|----|----|- Mid_image_display.py
+  |----|----|----|- Mid_image_display2.py
+  |----|----|----|- Mid_image_display3.py
+  |----|----|----|- Mid_image_display4.py
+  |----|----|----|- Mid_image_display5.py
+  |----|----|----|- Mid_image_display6.py
+  |----|----|----|- Mid_communication.py
+  |----|----|----|- Mid_project.py
+  |----|----|----|- CmakeLists.txt
+  |----|----|----|- package.yml
   |----|- MachineVision
   |----|----|- AcquireAndDisplay_Final.py
   |----|----|- best.pt
