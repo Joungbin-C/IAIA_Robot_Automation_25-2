@@ -30,6 +30,8 @@ catkin_ws
   |----|- MachineVision
   |----|----|- AcquireAndDisplay_Final.py
   |----|----|- best.pt
+  |----|----|- train
+  |----|----|----|- ...
   |----|----|----|----|- ...
 ```
 
