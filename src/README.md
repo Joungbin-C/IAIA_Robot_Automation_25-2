@@ -29,6 +29,7 @@ catkin_ws
   |----|----|- src
   |----|- MachineVision
   |----|----|- AcquireAndDisplay_Final.py
+  |----|----|- best.pt
   |----|----|----|----|- ...
 ```
 
