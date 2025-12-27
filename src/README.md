@@ -92,7 +92,54 @@ catkin_ws
 
 #### UR5e 실행
 
+우선 UR5e 로봇을 실행 전 my_robot_calibration.yaml을 홈 파일에 저장한 후 다음과 같은 명령어를 터미널에 실행한다.
+```
+chmod+x/~my_robot_calibration.yaml
+```
 
+그리고 아래 노드를 순서대로 실행한다.
+```
+cd~/catkin_ws
+catkin_make
+roscore
+
+roslaunch ur_robot_driver ur5e_bringup.launch robot_ip:=192.168.0.2
+
+roslaunch ur5e_rg2_moveit_config move_group.launch
+
+chmod +x ~/catkin_ws/src/ur_python/src/camera.py
+rosrun 22000167_Kiminyeop_ur_python camera.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/yellow_bracket_detection_node.py
+rosrun 22000167_Kiminyeop_ur_python yellow_bracket_detection_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/filled_cellbox_detection_node.py
+rosrun 22000167_Kiminyeop_ur_python filled_cellbox_detection_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/empty_composite_cellbox_detection_node.py
+rosrun 22000167_Kiminyeop_ur_python empty_composite_cellbox_detection_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/filled_composite_cellbox_detection_node.py
+rosrun 22000167_Kiminyeop_ur_python filled_composite_cellbox_detection_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/empty_cell_cellbox_detection_node.py
+rosrun 22000167_Kiminyeop_ur_python empty_cell_cellbox_detection_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/winding_detect_node.py
+rosrun 22000167_Kiminyeop_ur_python winding_detect_node.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/composite_detection.py
+rosrun 22000167_Kiminyeop_ur_python composite_detection.py
+
+chmod +x ~/catkin_ws/src/ur_python/src/cell_detection.py
+rosrun 22000167_Kiminyeop_ur_python cell_detection.py
+```
+
+**아두이노 실행은 아래와 같은 절차를 따른다.**
+Arduino 1.8.19를 설치한 후, 상단 도구 모음에서 보드가 **Arduino Uno**로 설정되어 있고 포트가 **/dev/tty/ACM0**인지 확인한다.  
+설정을 확인한 뒤 업로드를 진행하고, 업로드가 완료되면 Arduino 창을 닫는다.
+
+**마지막으로 VS code에  들어가서 main.py를 실행한다.**
 
 #### Indy10 실행
 
