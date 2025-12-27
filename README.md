@@ -17,3 +17,6 @@
 [**Source Code Link**](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/tree/main/src)
 
 [**Summary PPT Link**](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/tree/main/Docs(PPT))
+
+
+![poster](./img/poster.png)
