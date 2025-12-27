@@ -80,6 +80,30 @@ catkin_ws
       pip install Pillow==9.2.0
       ```
 
+  - Indy10 Robot process 용 실행은 다음과 같다.
+    - ```bash
+      roscore
+
+      rosrun indy_driver camera.py
+      
+      rosrun indy_driver Mid_image_display.py
+      
+      rosrun indy_driver Mid_image_display2.py
+      
+      rosrun indy_driver Mid_image_display3.py
+      
+      rosrun indy_driver Mid_image_display4.py
+      
+      rosrun indy_driver Mid_image_display5.py
+      
+      rosrun indy_driver Mid_image_display6.py
+      
+      rosrun indy_driver Mid_communication.py
+      
+      roslaunch indy10_moveit_config moveit_planning_execution.launch robot_ip:=192.168.0.8
+      rosrun indy_driver Mid_project.py
+      ```
+
 - Additional Ubuntu utility programs
 
   - terminator
