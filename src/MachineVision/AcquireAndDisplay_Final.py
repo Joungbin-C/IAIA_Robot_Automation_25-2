@@ -149,7 +149,7 @@ class ProcessingThread(QThread):
                 return
 
             # YOLO 모델 로드 (Surface 용)
-            surface_model_path = '../../train/runs/yolov8s_surface_defect_v1/weights/best.pt'
+            surface_model_path = 'best.pt'
             try:
                 surface_model = YOLO(surface_model_path)
                 self.log_message.emit(f"Surface model loaded: {surface_model_path}")
@@ -785,4 +785,5 @@ if __name__ == '__main__':
 
     ex = App()
     ex.show()
+
     sys.exit(app.exec_())
