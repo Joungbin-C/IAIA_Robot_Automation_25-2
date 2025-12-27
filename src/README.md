@@ -54,7 +54,7 @@ catkin_ws
       
       # 설치한 버전으로 변경
       cd C:\path\to\spinnaker_python_wheel
-      pip install spinnaker_python-3.x.x.x-cp310-cp310-linux_x86_64.whl 
+      pip install spinnaker_python-3.x.x.x-cp38-cp38-linux_x86_64.whl 
       
       pip install numpy==2.2.6
       pip install opencv-python-headless==4.10.0.84
