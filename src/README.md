@@ -79,32 +79,6 @@ catkin_ws
       pip install PyQt5==5.15.11
       pip install Pillow==9.2.0
       ```
-
-  - Indy10 Robot process 용 실행은 다음과 같다.
-    아두이노와 카메라를 연결할 때는 터미널에서 다음 노드들을 순서대로 실행하고, 코드(camera.py, Mid_project.py)에서 각 장치의 인덱스를 확인한다.
-    - ```bash
-      roscore
-
-      rosrun indy_driver camera.py
-      
-      rosrun indy_driver Mid_image_display.py
-      
-      rosrun indy_driver Mid_image_display2.py
-      
-      rosrun indy_driver Mid_image_display3.py
-      
-      rosrun indy_driver Mid_image_display4.py
-      
-      rosrun indy_driver Mid_image_display5.py
-      
-      rosrun indy_driver Mid_image_display6.py
-      
-      rosrun indy_driver Mid_communication.py
-      
-      roslaunch indy10_moveit_config moveit_planning_execution.launch robot_ip:=192.168.0.8
-      rosrun indy_driver Mid_project.py
-      ```
-
 - Additional Ubuntu utility programs
 
   - terminator
@@ -122,6 +96,29 @@ catkin_ws
 
 #### Indy10 실행
 
+아두이노와 카메라를 연결할 때는 터미널에서 다음 노드들을 순서대로 실행하고, 코드(camera.py, Mid_project.py)에서 각 장치의 인덱스를 확인한다.
+```bash
+roscore
+
+rosrun indy_driver camera.py
+
+rosrun indy_driver Mid_image_display.py
+
+rosrun indy_driver Mid_image_display2.py
+
+rosrun indy_driver Mid_image_display3.py
+
+rosrun indy_driver Mid_image_display4.py
+
+rosrun indy_driver Mid_image_display5.py
+
+rosrun indy_driver Mid_image_display6.py
+
+rosrun indy_driver Mid_communication.py
+
+roslaunch indy10_moveit_config moveit_planning_execution.launch robot_ip:=192.168.0.8
+rosrun indy_driver Mid_project.py
+```
 
 
 #### Machine Vision 실행
