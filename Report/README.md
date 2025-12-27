@@ -81,7 +81,7 @@ This is setup for machine vision to check the state of cells. There are two mach
 This is overall setup for battery wind manipulation. 
 
 ## III. Individual Report
-**[UR53]()**
+**[UR5e]()**
 
 **[Indy10]()**
 
