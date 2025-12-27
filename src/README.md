@@ -42,10 +42,7 @@ catkin_ws
 
 - Virtual Environment: Anaconda
 
-  - 가상환경 생성 및 설정은 [링크](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/src/MachineVision/README.md)를 따른다
-
-  - pyspin
-
+  - Machine Vision 용 가상환경 생성 및 설정은 [링크](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/src/MachineVision/README.md)를 따른다
     - ```bash
       conda create -n pyspin python=3.10 -y
       conda activate pyspin
