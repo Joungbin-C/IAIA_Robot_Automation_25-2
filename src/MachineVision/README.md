@@ -10,7 +10,7 @@
    - [PySpin 및 SDK 다운로드 링크](https://www.teledynevisionsolutions.com/ko-kr/support/support-center/software-firmware-downloads/iis/download-the-latest-spinnaker-software-development-kit/spinnaker-sdk--download-files/)
 2. **Python 버전 확인**
    - 지원 버전: **3.5 ~ 3.8, 3.10**
-   - 권장: **Python 3.10 (64-bit)**
+   - 권장: **Python 3.10 (64-bit)** (우분투 20.04이면 3.8 (64-bit) 추천)
    - Python 설치 시 반드시 **64-bit**로 설치
    - 환경 변수에 파이썬이 등록 되어있어야함
 
@@ -28,6 +28,9 @@ python --version
 
 ```
 py -3.10 --version
+
+# Ubuntu Version
+py -3.8 --version
 ```
 
 ------
@@ -48,6 +51,9 @@ Python 3.10 기준 예시:
 
 ```
 conda create -n pyspin python=3.10 -y
+
+# Ubuntu Version
+conda create -n pyspin python=3.8 -y
 ```
 
 ------
@@ -103,6 +109,10 @@ spinnaker_python-3.0.0.0-cp310-cp310-win_amd64.whl
 
 - `cp310` → Python 3.10
 - `win_amd64` → 64-bit Windows
+
+Unbuntu 20.04이면:
+- `cp38` → Python 3.8
+- 'linux_x86_64` → 64-bit Linux
 
 ### 설치
 
