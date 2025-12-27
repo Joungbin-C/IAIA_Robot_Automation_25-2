@@ -170,6 +170,7 @@ pip install Pillow==9.2.0
 깃허브에 `src/MachineVsion/AcquireAndDisplay_Final.py`을 spinnaker_python 파일에서 `Examples/Python3`에 옮긴 후 실행
 
 
+
 ## 11. 환경 비활성화
 
 ```
