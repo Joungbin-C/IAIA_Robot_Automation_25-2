@@ -85,4 +85,4 @@ This is overall setup for battery wind manipulation.
 
 **[Indy10](https://github.com/shg0873/IAIA/blob/main/Project/Project2_RobotAutomation/Report/Project2_Robot_Automation_HyeongyuSeo.md)**
 
-**[Machine Vision]([https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/Report/Report_MachinVision.pdf](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project2_RobotAutomation/Report/Project2_RobotAutomation_Joungbin_22200757.md))**
+**[Machine Vision](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project2_RobotAutomation/Report/Project2_RobotAutomation_Joungbin_22200757.md)**
