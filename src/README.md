@@ -20,10 +20,23 @@ catkin_ws
   |----|- CMakeLists.txt
   |----|- ur5e_python
   |----|----|- msg
-  |----|----|----|- object_info.msg
-  |----|----|----|- ...
+  |----|----|----| grip_command.msg
+  |----|----|----| grip_state.msg
+  |----|----|----| object_info.msg
+  |----|----|----| pet_info.msg
+  |----|----|----| robot_state.msg
   |----|----|- src
-  |----|----|----|- dual_network.py
+  |----|----|----| camera.py
+  |----|----|----| cell_detection.py
+  |----|----|----| composite_detection.py
+  |----|----|----| empty_cell_box_detection_node.py
+  |----|----|----| empty_composite_cellbox_detection_node.py
+  |----|----|----| filled_cellbox_detection_node.py
+  |----|----|----| filled_composite_cellbox_detection_node.py
+  |----|----|----| main.py
+  |----|----|----| move_group_python_interface.py	
+  |----|----|----| winding_detect_node.py	
+  |----|----|----| yellow_bracket_detection_node.py
   |----|- indy_driver
   |----|----|- msg
   |----|----|----|- comp_wind_info.msg
