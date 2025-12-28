@@ -18,7 +18,9 @@ catkin_ws
   |- devel
   |- src
   |----|- CMakeLists.txt
-  |----|- ur5e_python
+  |----|- 22000167_Kiminyeop_ur_python
+  |----|----|- CMakeLists.txt
+  |----|----|- package.xml
   |----|----|- msg
   |----|----|----| grip_command.msg
   |----|----|----| grip_state.msg
