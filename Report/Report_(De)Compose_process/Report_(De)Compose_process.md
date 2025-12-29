@@ -107,6 +107,7 @@ ______________
 ## IV. Procedure
 
 This report covers the camera-based cell and winding **disassembly and assembly automation process (UR robot)**.
+- [disassembly and assembly automation](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/tree/main/Report/Report_(Dis)assembly_Automation_Process/Report_(Dis)Assembly_Automation.md)
 
 Process recognition-based **pick and place automation (Indy10)** and deep learning-based **cell defect detection** are covered in the following links.
 
@@ -226,3 +227,4 @@ _____
 
 
 This project developed an automated system for the battery cell winding assembly and disassembly process to address the increasing demand for batteries driven by the growth of the electric vehicle market and to address the productivity and safety issues inherent in existing manual processes. By integrating industrial robots and machine vision technology, we implemented an intelligent process that performs bracket and cell detection, defect detection, assembly, and disassembly. The system's reliability was verified through 100 repeated experiments. The results showed a 100% success rate in cell orientation detection and stopper linkage, and a 98% or higher success rate in foreign matter and defective cell detection, exceeding the targets in all evaluation indicators. Notably, by shortening the process completion time to less than 57 seconds, well below the target of one minute, this system proved to be an effective solution that can dramatically improve production efficiency and work safety in the battery manufacturing and recycling industries.
+
