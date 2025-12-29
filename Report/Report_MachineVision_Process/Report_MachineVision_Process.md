@@ -1,4 +1,4 @@
-# LAB Report Template (Deep Learning)
+# 25-2 Robot Automation - Machine Vision(Cell Defect Detecting)
 
 **Date:** 2025/12/25
 
@@ -325,4 +325,5 @@ Process recognition-based pick and place automation with Indy10 and UR5 are cove
 
 
 [UR5](https://github.com/Kiminyeop-cpu/Robot-Automation/blob/main/Battery%20Cell%20Winding%20Process.pdf)
+
 
