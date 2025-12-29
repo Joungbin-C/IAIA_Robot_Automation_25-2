@@ -81,7 +81,7 @@ This is setup for machine vision to check the state of cells. There are two mach
 This is overall setup for battery wind manipulation. 
 
 ## III. Individual Report
-**[UR5e](https://github.com/Kiminyeop-cpu/Robot-Automation/blob/main/Battery%20Cell%20Winding%20Process.md)**
+**[disassembly and assembly automation](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/tree/main/Report/Report_(Dis)assembly_Automation_Process/Report_(Dis)Assembly_Automation.md)**
 
 **[Indy10](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/blob/main/Report/Report_(De)Compose_process/Report_(De)Compose_process.md)**
 
