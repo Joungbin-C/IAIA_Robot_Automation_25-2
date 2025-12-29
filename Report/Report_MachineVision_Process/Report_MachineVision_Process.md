@@ -104,7 +104,7 @@ For surface detection of the cell, the dataset is customized. There are 4 classe
 
 ### 1. Hardware Setup
 
-![hardware](.\img\hardware.png)
+![hardware](./img/hardware.png)
 
 **Figure 1. Hardware Overview**
 
@@ -113,7 +113,7 @@ This image show hardware Setup:
 1. UR5 and Indy10 robots are placed between the stopper(stepper motors) and ultrasonic sensors. If ultrasonic sensors detect the bracket, stopper is closed.
 2. Cameras are placed upper and side of the rail. Upper camera check the circularity of the cell and side camera check the surface of the cell.
 
-![camerasetup](.\img\camerasetup.png)
+![camerasetup](./img/camerasetup.png)
 
 **Figure 2. Camera Setup**
 
@@ -131,7 +131,7 @@ validation data : 7%
 
 test data : 3%
 
-<img src=".\img\data.png" alt="data" style="zoom:33%;" />
+<img src="./img/data.png" alt="data" style="zoom:33%;" />
 
 **Figure 3. Dataset Distribution**
 
@@ -152,13 +152,13 @@ YOLO (You Only Look Once) is a real-time object detection model that simultaneou
 | Early Stop  | 20              |
 | Final Epoch | 53              |
 
-<img src=".\img\trainresult_cm.png" alt="trainresult_cm" style="zoom:33%;" />
+<img src="./img/trainresult_cm.png" alt="trainresult_cm" style="zoom:33%;" />
 
 **Figure 4. Training Result Confusion Matrix**
 
 
 
-<img src=".\img\trainresult_pr.png" alt="trainresult_pr" style="zoom: 33%;" />
+<img src="./img/trainresult_pr.png" alt="trainresult_pr" style="zoom: 33%;" />
 
 **Figure 5. PR Curve Graph**
 
@@ -187,7 +187,7 @@ This study proposes an automated battery cell inspection system that integrates 
 
 Camera 1 is responsible for **cell geometry analysis**, including circular shape detection, edge-based crack inspection, and thickness measurement. Camera 2 performs **surface defect detection** using a YOLO-based object detection model. The inspection process follows a state-based logic in which two consecutive cells (Cell 1 and Cell 2) are evaluated and their results are combined to generate a final decision flag.
 
-![flowchart](.\img\flowchart.png)
+![flowchart](./img/flowchart.png)
 
 **Figure 6. Flow Chart**
 
@@ -197,11 +197,11 @@ Preprocessing steps were designed separately for each camera according to its in
 
 For Camera 1, a fixed-size **region of interest (ROI)** centered in the image was extracted to remove unnecessary background information. The ROI image was converted to grayscale and smoothed using Gaussian blur to reduce noise. Circular features of the battery cell were detected using the **Hough Circle Transform**, and the detected outer circle was used to define an edge ring region. **Canny edge detection** was applied within this region to emphasize crack-related features[3]. 
 
-![cam1_preprocessing1](.\img\cam1_preprocessing1.png)
+![cam1_preprocessing1](./img/cam1_preprocessing1.png)
 
-![cam1_preprocessing2](.\img\cam1_preprocessing2.png)
+![cam1_preprocessing2](./img/cam1_preprocessing2.png)
 
-<img src=".\img\cam1_preprocessing3.png" alt="cam1_preprocessing3" style="zoom: 25%;" />
+<img src="./img/cam1_preprocessing3.png" alt="cam1_preprocessing3" style="zoom: 25%;" />
 
 **Figure 7. Preprocessing: Grayscale, Gaussian blur, Hough Circle,  Ring Mask, Ring ROI, Canny Edge,  Contour, and Result**
 
@@ -215,7 +215,7 @@ For Camera 2, a centered ROI was extracted from the original color image and dir
 
 A **YOLOv8-based object detection model** was employed for surface defect detection[4]. YOLO (You Only Look Once) is a single-stage object detection framework that simultaneously predicts object locations and class probabilities in a single forward pass, enabling real-time performance.
 
-<img src="F:\한동대\8학기\IAIA\IAIA_robot_project_machine_vision\img\cam2_result (2).png" alt="cam2_result (2)" style="zoom: 50%;" />
+<img src="F:\한동대\8학기\IAIA\IAIA_robot_project_machine_vision/img/cam2_result (2).png" alt="cam2_result (2)" style="zoom: 50%;" />
 
 **Figure 8. Surface Detection Result**
 
@@ -242,7 +242,7 @@ The evaluation metrics included:
 
 ## VI. Results and Analysis
 
-<img src=".\img\cam1_result.png" alt="cam1_result" style="zoom: 25%;" />
+<img src="./img/cam1_result.png" alt="cam1_result" style="zoom: 25%;" />
 
 **Figure 9. Top Camera Result**
 
@@ -255,7 +255,7 @@ The accuracy of the circularity-based decision logic was evaluated through a tot
 | Cell Okay      | ≥ 95                | 102 / 105        | **97.14**           |
 | Cell Not Okay  | ≥ 95                | 100 / 105        | **95.24**           |
 
-<img src=".\img\cam2_result (2).png" alt="cam2_result (2)" style="zoom:50%;" />
+<img src="./img/cam2_result (2).png" alt="cam2_result (2)" style="zoom:50%;" />
 
 **Figure 10. Side Camera Result**
 
@@ -322,5 +322,6 @@ This report covers deep learning-based and machine vision cell defect detection.
 Process recognition-based pick and place automation with Indy10 and UR5 are covered in the following links.
 
 [Indy10](https://github.com/shg0873/IAIA/tree/main/Project/Project2_RobotAutomation/Report)
+
 
 [UR5](https://github.com/Kiminyeop-cpu/Robot-Automation/blob/main/Battery%20Cell%20Winding%20Process.pdf)
