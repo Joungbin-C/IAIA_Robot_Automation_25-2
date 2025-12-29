@@ -4,7 +4,7 @@
 
 **Author:** Joungbin Choi
 
-**Github:** [repository link](https://github.com/Joungbin-C/IAIA/tree/main/Project/Project2_RobotAutomation)
+**Github:** [repository link](https://github.com/Joungbin-C/IAIA_Robot_Automation_25-2/tree/main)
 
 **Demo Video:** [Youtube link](https://youtu.be/vMVNzXjdA7o)
 
@@ -325,3 +325,4 @@ Process recognition-based pick and place automation with Indy10 and UR5 are cove
 
 
 [UR5](https://github.com/Kiminyeop-cpu/Robot-Automation/blob/main/Battery%20Cell%20Winding%20Process.pdf)
+
